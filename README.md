@@ -5,6 +5,7 @@
 # Run
  fork the repo and run
  - UnfairChess/main-offline/GUI
+
  with python or run the .exe 
  - UnfairChess/executable/unfairchess-off.exe
 
