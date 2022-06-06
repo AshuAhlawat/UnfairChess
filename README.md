@@ -3,12 +3,15 @@
    before you say what? just think how many new possibilities and stratergies can be develped
 
 # Run
- fork the repo and run with python
- - UnfairChess/main-offline/GUI
-
-  or run the .exe 
+   ##Fork the Repo
+   
+   ##Run the .exe 
  - UnfairChess/executable/unfairchess-off.exe
-
+   
+   OR run with python
+   - pip install pyqt5
+   - UnfairChess/main-offline/GUI.py
+  
 # Online version under development
 
 # Credits
