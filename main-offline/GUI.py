@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b00.setFont(font)
-        self.b00.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b00.setStyleSheet("background-color:rgb(75,40,40)")
         self.b00.setObjectName("b00")
         self.b00.clicked.connect(self.actionb00)
         
@@ -31,7 +31,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b01.setFont(font)
-        self.b01.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b01.setStyleSheet("background-color:rgb(220,190,130)")
         self.b01.setObjectName("b01")
         self.b01.clicked.connect(self.actionb01)
         
@@ -40,7 +40,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b02.setFont(font)
-        self.b02.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b02.setStyleSheet("background-color:rgb(75,40,40)")
         self.b02.setObjectName("b02")
         self.b02.clicked.connect(self.actionb02)
         
@@ -49,7 +49,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b03.setFont(font)
-        self.b03.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b03.setStyleSheet("background-color:rgb(220,190,130)")
         self.b03.setObjectName("b03")
         self.b03.clicked.connect(self.actionb03)
         
@@ -58,7 +58,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b04.setFont(font)
-        self.b04.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b04.setStyleSheet("background-color:rgb(75,40,40)")
         self.b04.setObjectName("b04")
         self.b04.clicked.connect(self.actionb04)
         
@@ -67,7 +67,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b05.setFont(font)
-        self.b05.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b05.setStyleSheet("background-color:rgb(220,190,130)")
         self.b05.setObjectName("b05")
         self.b05.clicked.connect(self.actionb05)
         
@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b06.setFont(font)
-        self.b06.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b06.setStyleSheet("background-color:rgb(75,40,40)")
         self.b06.setObjectName("b06")
         self.b06.clicked.connect(self.actionb06)
         
@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b07.setFont(font)
-        self.b07.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b07.setStyleSheet("background-color:rgb(220,190,130)")
         self.b07.setObjectName("b07")
         self.b07.clicked.connect(self.actionb07)
         
@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b11.setFont(font)
-        self.b11.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b11.setStyleSheet("background-color:rgb(75,40,40)")
         self.b11.setObjectName("b11")
         self.b11.clicked.connect(self.actionb11)
         
@@ -103,7 +103,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b20.setFont(font)
-        self.b20.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b20.setStyleSheet("background-color:rgb(75,40,40)")
         self.b20.setText("")
         self.b20.setObjectName("b20")
         self.b20.clicked.connect(self.actionb20)
@@ -113,7 +113,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b22.setFont(font)
-        self.b22.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b22.setStyleSheet("background-color:rgb(75,40,40)")
         self.b22.setText("")
         self.b22.setObjectName("b22")
         self.b22.clicked.connect(self.actionb22)
@@ -123,7 +123,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b24.setFont(font)
-        self.b24.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b24.setStyleSheet("background-color:rgb(75,40,40)")
         self.b24.setText("")
         self.b24.setObjectName("b24")
         self.b24.clicked.connect(self.actionb24)
@@ -133,7 +133,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b26.setFont(font)
-        self.b26.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b26.setStyleSheet("background-color:rgb(75,40,40)")
         self.b26.setText("")
         self.b26.setObjectName("b26")
         self.b26.clicked.connect(self.actionb26)
@@ -143,7 +143,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b31.setFont(font)
-        self.b31.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b31.setStyleSheet("background-color:rgb(75,40,40)")
         self.b31.setText("")
         self.b31.setObjectName("b31")
         self.b31.clicked.connect(self.actionb31)
@@ -153,7 +153,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b33.setFont(font)
-        self.b33.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b33.setStyleSheet("background-color:rgb(75,40,40)")
         self.b33.setText("")
         self.b33.setObjectName("b33")
         self.b33.clicked.connect(self.actionb33)
@@ -163,7 +163,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b37.setFont(font)
-        self.b37.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b37.setStyleSheet("background-color:rgb(75,40,40)")
         self.b37.setText("")
         self.b37.setObjectName("b37")
         self.b37.clicked.connect(self.actionb37)
@@ -173,7 +173,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b35.setFont(font)
-        self.b35.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b35.setStyleSheet("background-color:rgb(75,40,40)")
         self.b35.setText("")
         self.b35.setObjectName("b35")
         self.b35.clicked.connect(self.actionb35)
@@ -183,7 +183,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b40.setFont(font)
-        self.b40.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b40.setStyleSheet("background-color:rgb(75,40,40)")
         self.b40.setText("")
         self.b40.setObjectName("b40")
         self.b40.clicked.connect(self.actionb40)
@@ -193,7 +193,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b42.setFont(font)
-        self.b42.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b42.setStyleSheet("background-color:rgb(75,40,40)")
         self.b42.setText("")
         self.b42.setObjectName("b42")
         self.b42.clicked.connect(self.actionb42)
@@ -203,7 +203,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b44.setFont(font)
-        self.b44.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b44.setStyleSheet("background-color:rgb(75,40,40)")
         self.b44.setText("")
         self.b44.setObjectName("b44")
         self.b44.clicked.connect(self.actionb44)
@@ -213,7 +213,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b46.setFont(font)
-        self.b46.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b46.setStyleSheet("background-color:rgb(75,40,40)")
         self.b46.setText("")
         self.b46.setObjectName("b46")
         self.b46.clicked.connect(self.actionb46)
@@ -223,7 +223,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b51.setFont(font)
-        self.b51.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b51.setStyleSheet("background-color:rgb(75,40,40)")
         self.b51.setText("")
         self.b51.setObjectName("b51")
         self.b51.clicked.connect(self.actionb51)
@@ -233,7 +233,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b53.setFont(font)
-        self.b53.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b53.setStyleSheet("background-color:rgb(75,40,40)")
         self.b53.setText("")
         self.b53.setObjectName("b53")
         self.b53.clicked.connect(self.actionb53)
@@ -243,7 +243,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b55.setFont(font)
-        self.b55.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b55.setStyleSheet("background-color:rgb(75,40,40)")
         self.b55.setText("")
         self.b55.setObjectName("b55")
         self.b55.clicked.connect(self.actionb55)
@@ -253,7 +253,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b57.setFont(font)
-        self.b57.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b57.setStyleSheet("background-color:rgb(75,40,40)")
         self.b57.setText("")
         self.b57.setObjectName("b57")
         self.b57.clicked.connect(self.actionb57)
@@ -263,7 +263,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b60.setFont(font)
-        self.b60.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b60.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b60.setObjectName("b60")
         self.b60.clicked.connect(self.actionb60)
         
@@ -272,7 +272,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b62.setFont(font)
-        self.b62.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b62.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b62.setObjectName("b62")
         self.b62.clicked.connect(self.actionb62)
         
@@ -281,7 +281,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b64.setFont(font)
-        self.b64.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b64.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b64.setObjectName("b64")
         self.b64.clicked.connect(self.actionb64)
         
@@ -290,7 +290,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b66.setFont(font)
-        self.b66.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b66.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b66.setObjectName("b66")
         self.b66.clicked.connect(self.actionb66)
         
@@ -299,7 +299,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b71.setFont(font)
-        self.b71.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b71.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b71.setObjectName("b71")
         self.b71.clicked.connect(self.actionb71)
         
@@ -308,7 +308,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b73.setFont(font)
-        self.b73.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b73.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b73.setObjectName("b73")
         self.b73.clicked.connect(self.actionb73)
         
@@ -317,7 +317,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b75.setFont(font)
-        self.b75.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b75.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b75.setObjectName("b75")
         self.b75.clicked.connect(self.actionb75)
         
@@ -326,7 +326,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b77.setFont(font)
-        self.b77.setStyleSheet("background-color:rgb(65,67,69);color:white")
+        self.b77.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b77.setObjectName("b77")
         self.b77.clicked.connect(self.actionb77)
         
@@ -335,7 +335,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b10.setFont(font)
-        self.b10.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b10.setStyleSheet("background-color:rgb(220,190,130)")
         self.b10.setObjectName("b10")
         self.b10.clicked.connect(self.actionb10)
         
@@ -344,7 +344,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b21.setFont(font)
-        self.b21.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b21.setStyleSheet("background-color:rgb(220,190,130)")
         self.b21.setText("")
         self.b21.setObjectName("b21")
         self.b21.clicked.connect(self.actionb21)
@@ -354,7 +354,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b23.setFont(font)
-        self.b23.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b23.setStyleSheet("background-color:rgb(220,190,130)")
         self.b23.setText("")
         self.b23.setObjectName("b23")
         self.b23.clicked.connect(self.actionb23)
@@ -364,7 +364,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b25.setFont(font)
-        self.b25.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b25.setStyleSheet("background-color:rgb(220,190,130)")
         self.b25.setText("")
         self.b25.setObjectName("b25")
         self.b25.clicked.connect(self.actionb25)
@@ -374,7 +374,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b27.setFont(font)
-        self.b27.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b27.setStyleSheet("background-color:rgb(220,190,130)")
         self.b27.setText("")
         self.b27.setObjectName("b27")
         self.b27.clicked.connect(self.actionb27)
@@ -384,7 +384,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b30.setFont(font)
-        self.b30.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b30.setStyleSheet("background-color:rgb(220,190,130)")
         self.b30.setText("")
         self.b30.setObjectName("b30")
         self.b30.clicked.connect(self.actionb30)
@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b32.setFont(font)
-        self.b32.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b32.setStyleSheet("background-color:rgb(220,190,130)")
         self.b32.setText("")
         self.b32.setObjectName("b32")
         self.b32.clicked.connect(self.actionb32)
@@ -404,7 +404,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b34.setFont(font)
-        self.b34.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b34.setStyleSheet("background-color:rgb(220,190,130)")
         self.b34.setText("")
         self.b34.setObjectName("b34")
         self.b34.clicked.connect(self.actionb34)
@@ -415,7 +415,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b36.setFont(font)
-        self.b36.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b36.setStyleSheet("background-color:rgb(220,190,130)")
         self.b36.setText("")
         self.b36.setObjectName("b36")
         self.b36.clicked.connect(self.actionb36)
@@ -425,7 +425,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b41.setFont(font)
-        self.b41.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b41.setStyleSheet("background-color:rgb(220,190,130)")
         self.b41.setText("")
         self.b41.setObjectName("b41")
         self.b41.clicked.connect(self.actionb41)
@@ -435,7 +435,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b43.setFont(font)
-        self.b43.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b43.setStyleSheet("background-color:rgb(220,190,130)")
         self.b43.setText("")
         self.b43.setObjectName("b43")
         self.b43.clicked.connect(self.actionb43)
@@ -445,7 +445,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b45.setFont(font)
-        self.b45.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b45.setStyleSheet("background-color:rgb(220,190,130)")
         self.b45.setText("")
         self.b45.setObjectName("b45")
         self.b45.clicked.connect(self.actionb45)
@@ -455,7 +455,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b47.setFont(font)
-        self.b47.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b47.setStyleSheet("background-color:rgb(220,190,130)")
         self.b47.setText("")
         self.b47.setObjectName("b47")
         self.b47.clicked.connect(self.actionb47)
@@ -465,7 +465,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b50.setFont(font)
-        self.b50.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b50.setStyleSheet("background-color:rgb(220,190,130)")
         self.b50.setText("")
         self.b50.setObjectName("b50")
         self.b50.clicked.connect(self.actionb50)
@@ -475,7 +475,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b52.setFont(font)
-        self.b52.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b52.setStyleSheet("background-color:rgb(220,190,130)")
         self.b52.setText("")
         self.b52.setObjectName("b52")
         self.b52.clicked.connect(self.actionb52)
@@ -485,7 +485,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b54.setFont(font)
-        self.b54.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b54.setStyleSheet("background-color:rgb(220,190,130)")
         self.b54.setText("")
         self.b54.setObjectName("b54")
         self.b54.clicked.connect(self.actionb54)
@@ -495,7 +495,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b56.setFont(font)
-        self.b56.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b56.setStyleSheet("background-color:rgb(220,190,130)")
         self.b56.setText("")
         self.b56.setObjectName("b56")
         self.b56.clicked.connect(self.actionb56)
@@ -505,7 +505,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b61.setFont(font)
-        self.b61.setStyleSheet("background-color:rgb(232,231,172);color:white;")
+        self.b61.setStyleSheet("background-color:rgb(220,190,130);color:white;")
         self.b61.setObjectName("b61")
         self.b61.clicked.connect(self.actionb61)
         
@@ -514,7 +514,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b63.setFont(font)
-        self.b63.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b63.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b63.setObjectName("b63")
         self.b63.clicked.connect(self.actionb63)
         
@@ -523,7 +523,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b65.setFont(font)
-        self.b65.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b65.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b65.setObjectName("b65")
         self.b65.clicked.connect(self.actionb65)
         
@@ -532,7 +532,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b76.setFont(font)
-        self.b76.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b76.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b76.setObjectName("b76")
         self.b76.clicked.connect(self.actionb76)
         
@@ -541,7 +541,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b70.setFont(font)
-        self.b70.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b70.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b70.setObjectName("b70")
         self.b70.clicked.connect(self.actionb70)
         
@@ -550,7 +550,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b72.setFont(font)
-        self.b72.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b72.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b72.setObjectName("b72")
         self.b72.clicked.connect(self.actionb72)
         
@@ -559,7 +559,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b74.setFont(font)
-        self.b74.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b74.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b74.setObjectName("b74")
         self.b74.clicked.connect(self.actionb74)
         
@@ -568,7 +568,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b67.setFont(font)
-        self.b67.setStyleSheet("background-color:rgb(232,231,172);color:white")
+        self.b67.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b67.setObjectName("b67")
         self.b67.clicked.connect(self.actionb67)
         
@@ -699,7 +699,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b12.setFont(font)
-        self.b12.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b12.setStyleSheet("background-color:rgb(220,190,130)")
         self.b12.setObjectName("b12")
         self.b12.clicked.connect(self.actionb12)
         
@@ -708,7 +708,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b14.setFont(font)
-        self.b14.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b14.setStyleSheet("background-color:rgb(220,190,130)")
         self.b14.setObjectName("b14")
         self.b14.clicked.connect(self.actionb14)
         
@@ -717,7 +717,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b16.setFont(font)
-        self.b16.setStyleSheet("background-color:rgb(232,231,172)")
+        self.b16.setStyleSheet("background-color:rgb(220,190,130)")
         self.b16.setObjectName("b16")
         self.b16.clicked.connect(self.actionb16)
         
@@ -726,7 +726,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b13.setFont(font)
-        self.b13.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b13.setStyleSheet("background-color:rgb(75,40,40)")
         self.b13.setObjectName("b13")
         self.b13.clicked.connect(self.actionb13)
         
@@ -735,7 +735,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b15.setFont(font)
-        self.b15.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b15.setStyleSheet("background-color:rgb(75,40,40)")
         self.b15.setObjectName("b15")
         self.b15.clicked.connect(self.actionb15)
         
@@ -744,7 +744,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b17.setFont(font)
-        self.b17.setStyleSheet("background-color:rgb(65,67,69)")
+        self.b17.setStyleSheet("background-color:rgb(75,40,40)")
         self.b17.setObjectName("b17")
         self.b17.clicked.connect(self.actionb17)
         
@@ -2170,7 +2170,7 @@ class Ui_MainWindow(object):
             [self.b60,self.b61,self.b62,self.b63,self.b64,self.b65,self.b66,self.b67],
             [self.b70,self.b71,self.b72,self.b73,self.b74,self.b75,self.b76,self.b77]
          ]
-        if update_color[i][j].setStyleSheet("background-color:rgb(65,67,69);"):
+        if update_color[i][j].setStyleSheet("background-color:rgb(75,40,40);"):
             if "w" in update_color[i][j].text():
                 color = "white"
             else:
@@ -2200,9 +2200,9 @@ class Ui_MainWindow(object):
             if i%2 ==0:
                 for j in range(8):
                     if j%2 == 0:
-                        color = "rgb(65,67,69)"
+                        color = "rgb(75,40,40)"
                     else:
-                        color = "rgb(232,231,172)"
+                        color = "rgb(220,190,130)"
                     if "w" in update_color[i][j].text():
                         update_color[i][j].setStyleSheet("background-color:"+color+";color:white")
                     else:
@@ -2211,9 +2211,9 @@ class Ui_MainWindow(object):
             else:
                 for j in range(8):
                     if j%2 == 1:
-                        color = "rgb(65,67,69)"
+                        color = "rgb(75,40,40)"
                     else:
-                        color = "rgb(232,231,172)"
+                        color = "rgb(220,190,130)"
                     if "w" in update_color[i][j].text():
                         update_color[i][j].setStyleSheet("background-color:"+color+";color:white")
                     else:
