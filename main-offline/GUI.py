@@ -1,22 +1,22 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from algo.possibilities import possibilities
+from PyQt5.QtGui import QIcon, QPixmap
 
+from algo.possibilities import possibilities
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        
+
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(850, 890)
         MainWindow.setMinimumSize(QtCore.QSize(800, 800))
         MainWindow.setMaximumSize(QtCore.QSize(850, 900))
         MainWindow.setStyleSheet("background-color:black;")
         MainWindow.setWindowIcon(QtGui.QIcon("icon.png"))
-        
-        
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        
+
         self.b00 = QtWidgets.QPushButton(self.centralwidget)
         self.b00.setGeometry(QtCore.QRect(0, 0, 100, 100))
         font = QtGui.QFont()
@@ -25,7 +25,7 @@ class Ui_MainWindow(object):
         self.b00.setStyleSheet("background-color:rgb(75,40,40)")
         self.b00.setObjectName("b00")
         self.b00.clicked.connect(self.actionb00)
-        
+
         self.b01 = QtWidgets.QPushButton(self.centralwidget)
         self.b01.setGeometry(QtCore.QRect(100, 0, 100, 100))
         font = QtGui.QFont()
@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
         self.b01.setStyleSheet("background-color:rgb(220,190,130)")
         self.b01.setObjectName("b01")
         self.b01.clicked.connect(self.actionb01)
-        
+
         self.b02 = QtWidgets.QPushButton(self.centralwidget)
         self.b02.setGeometry(QtCore.QRect(200, 0, 100, 100))
         font = QtGui.QFont()
@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
         self.b02.setStyleSheet("background-color:rgb(75,40,40)")
         self.b02.setObjectName("b02")
         self.b02.clicked.connect(self.actionb02)
-        
+
         self.b03 = QtWidgets.QPushButton(self.centralwidget)
         self.b03.setGeometry(QtCore.QRect(300, 0, 100, 100))
         font = QtGui.QFont()
@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         self.b03.setStyleSheet("background-color:rgb(220,190,130)")
         self.b03.setObjectName("b03")
         self.b03.clicked.connect(self.actionb03)
-        
+
         self.b04 = QtWidgets.QPushButton(self.centralwidget)
         self.b04.setGeometry(QtCore.QRect(400, 0, 100, 100))
         font = QtGui.QFont()
@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.b04.setStyleSheet("background-color:rgb(75,40,40)")
         self.b04.setObjectName("b04")
         self.b04.clicked.connect(self.actionb04)
-        
+
         self.b05 = QtWidgets.QPushButton(self.centralwidget)
         self.b05.setGeometry(QtCore.QRect(500, 0, 100, 100))
         font = QtGui.QFont()
@@ -70,7 +70,7 @@ class Ui_MainWindow(object):
         self.b05.setStyleSheet("background-color:rgb(220,190,130)")
         self.b05.setObjectName("b05")
         self.b05.clicked.connect(self.actionb05)
-        
+
         self.b06 = QtWidgets.QPushButton(self.centralwidget)
         self.b06.setGeometry(QtCore.QRect(600, 0, 100, 100))
         font = QtGui.QFont()
@@ -79,7 +79,7 @@ class Ui_MainWindow(object):
         self.b06.setStyleSheet("background-color:rgb(75,40,40)")
         self.b06.setObjectName("b06")
         self.b06.clicked.connect(self.actionb06)
-        
+
         self.b07 = QtWidgets.QPushButton(self.centralwidget)
         self.b07.setGeometry(QtCore.QRect(700, 0, 100, 100))
         font = QtGui.QFont()
@@ -88,7 +88,7 @@ class Ui_MainWindow(object):
         self.b07.setStyleSheet("background-color:rgb(220,190,130)")
         self.b07.setObjectName("b07")
         self.b07.clicked.connect(self.actionb07)
-        
+
         self.b11 = QtWidgets.QPushButton(self.centralwidget)
         self.b11.setGeometry(QtCore.QRect(100, 100, 100, 100))
         font = QtGui.QFont()
@@ -97,7 +97,7 @@ class Ui_MainWindow(object):
         self.b11.setStyleSheet("background-color:rgb(75,40,40)")
         self.b11.setObjectName("b11")
         self.b11.clicked.connect(self.actionb11)
-        
+
         self.b20 = QtWidgets.QPushButton(self.centralwidget)
         self.b20.setGeometry(QtCore.QRect(0, 200, 100, 100))
         font = QtGui.QFont()
@@ -107,7 +107,7 @@ class Ui_MainWindow(object):
         self.b20.setText("")
         self.b20.setObjectName("b20")
         self.b20.clicked.connect(self.actionb20)
-        
+
         self.b22 = QtWidgets.QPushButton(self.centralwidget)
         self.b22.setGeometry(QtCore.QRect(200, 200, 100, 100))
         font = QtGui.QFont()
@@ -117,7 +117,7 @@ class Ui_MainWindow(object):
         self.b22.setText("")
         self.b22.setObjectName("b22")
         self.b22.clicked.connect(self.actionb22)
-        
+
         self.b24 = QtWidgets.QPushButton(self.centralwidget)
         self.b24.setGeometry(QtCore.QRect(400, 200, 100, 100))
         font = QtGui.QFont()
@@ -127,7 +127,7 @@ class Ui_MainWindow(object):
         self.b24.setText("")
         self.b24.setObjectName("b24")
         self.b24.clicked.connect(self.actionb24)
-        
+
         self.b26 = QtWidgets.QPushButton(self.centralwidget)
         self.b26.setGeometry(QtCore.QRect(600, 200, 100, 100))
         font = QtGui.QFont()
@@ -137,7 +137,7 @@ class Ui_MainWindow(object):
         self.b26.setText("")
         self.b26.setObjectName("b26")
         self.b26.clicked.connect(self.actionb26)
-        
+
         self.b31 = QtWidgets.QPushButton(self.centralwidget)
         self.b31.setGeometry(QtCore.QRect(100, 300, 100, 100))
         font = QtGui.QFont()
@@ -147,7 +147,7 @@ class Ui_MainWindow(object):
         self.b31.setText("")
         self.b31.setObjectName("b31")
         self.b31.clicked.connect(self.actionb31)
-        
+
         self.b33 = QtWidgets.QPushButton(self.centralwidget)
         self.b33.setGeometry(QtCore.QRect(300, 300, 100, 100))
         font = QtGui.QFont()
@@ -157,7 +157,7 @@ class Ui_MainWindow(object):
         self.b33.setText("")
         self.b33.setObjectName("b33")
         self.b33.clicked.connect(self.actionb33)
-        
+
         self.b37 = QtWidgets.QPushButton(self.centralwidget)
         self.b37.setGeometry(QtCore.QRect(700, 300, 100, 100))
         font = QtGui.QFont()
@@ -167,7 +167,7 @@ class Ui_MainWindow(object):
         self.b37.setText("")
         self.b37.setObjectName("b37")
         self.b37.clicked.connect(self.actionb37)
-        
+
         self.b35 = QtWidgets.QPushButton(self.centralwidget)
         self.b35.setGeometry(QtCore.QRect(500, 300, 100, 100))
         font = QtGui.QFont()
@@ -177,7 +177,7 @@ class Ui_MainWindow(object):
         self.b35.setText("")
         self.b35.setObjectName("b35")
         self.b35.clicked.connect(self.actionb35)
-        
+
         self.b40 = QtWidgets.QPushButton(self.centralwidget)
         self.b40.setGeometry(QtCore.QRect(0, 400, 100, 100))
         font = QtGui.QFont()
@@ -187,7 +187,7 @@ class Ui_MainWindow(object):
         self.b40.setText("")
         self.b40.setObjectName("b40")
         self.b40.clicked.connect(self.actionb40)
-        
+
         self.b42 = QtWidgets.QPushButton(self.centralwidget)
         self.b42.setGeometry(QtCore.QRect(200, 400, 100, 100))
         font = QtGui.QFont()
@@ -197,7 +197,7 @@ class Ui_MainWindow(object):
         self.b42.setText("")
         self.b42.setObjectName("b42")
         self.b42.clicked.connect(self.actionb42)
-        
+
         self.b44 = QtWidgets.QPushButton(self.centralwidget)
         self.b44.setGeometry(QtCore.QRect(400, 400, 100, 100))
         font = QtGui.QFont()
@@ -207,7 +207,7 @@ class Ui_MainWindow(object):
         self.b44.setText("")
         self.b44.setObjectName("b44")
         self.b44.clicked.connect(self.actionb44)
-        
+
         self.b46 = QtWidgets.QPushButton(self.centralwidget)
         self.b46.setGeometry(QtCore.QRect(600, 400, 100, 100))
         font = QtGui.QFont()
@@ -217,7 +217,7 @@ class Ui_MainWindow(object):
         self.b46.setText("")
         self.b46.setObjectName("b46")
         self.b46.clicked.connect(self.actionb46)
-        
+
         self.b51 = QtWidgets.QPushButton(self.centralwidget)
         self.b51.setGeometry(QtCore.QRect(100, 500, 100, 100))
         font = QtGui.QFont()
@@ -227,7 +227,7 @@ class Ui_MainWindow(object):
         self.b51.setText("")
         self.b51.setObjectName("b51")
         self.b51.clicked.connect(self.actionb51)
-        
+
         self.b53 = QtWidgets.QPushButton(self.centralwidget)
         self.b53.setGeometry(QtCore.QRect(300, 500, 100, 100))
         font = QtGui.QFont()
@@ -237,7 +237,7 @@ class Ui_MainWindow(object):
         self.b53.setText("")
         self.b53.setObjectName("b53")
         self.b53.clicked.connect(self.actionb53)
-        
+
         self.b55 = QtWidgets.QPushButton(self.centralwidget)
         self.b55.setGeometry(QtCore.QRect(500, 500, 100, 100))
         font = QtGui.QFont()
@@ -247,7 +247,7 @@ class Ui_MainWindow(object):
         self.b55.setText("")
         self.b55.setObjectName("b55")
         self.b55.clicked.connect(self.actionb55)
-        
+
         self.b57 = QtWidgets.QPushButton(self.centralwidget)
         self.b57.setGeometry(QtCore.QRect(700, 500, 100, 100))
         font = QtGui.QFont()
@@ -257,7 +257,7 @@ class Ui_MainWindow(object):
         self.b57.setText("")
         self.b57.setObjectName("b57")
         self.b57.clicked.connect(self.actionb57)
-        
+
         self.b60 = QtWidgets.QPushButton(self.centralwidget)
         self.b60.setGeometry(QtCore.QRect(0, 600, 100, 100))
         font = QtGui.QFont()
@@ -266,7 +266,7 @@ class Ui_MainWindow(object):
         self.b60.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b60.setObjectName("b60")
         self.b60.clicked.connect(self.actionb60)
-        
+
         self.b62 = QtWidgets.QPushButton(self.centralwidget)
         self.b62.setGeometry(QtCore.QRect(200, 600, 100, 100))
         font = QtGui.QFont()
@@ -275,7 +275,7 @@ class Ui_MainWindow(object):
         self.b62.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b62.setObjectName("b62")
         self.b62.clicked.connect(self.actionb62)
-        
+
         self.b64 = QtWidgets.QPushButton(self.centralwidget)
         self.b64.setGeometry(QtCore.QRect(400, 600, 100, 100))
         font = QtGui.QFont()
@@ -284,7 +284,7 @@ class Ui_MainWindow(object):
         self.b64.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b64.setObjectName("b64")
         self.b64.clicked.connect(self.actionb64)
-        
+
         self.b66 = QtWidgets.QPushButton(self.centralwidget)
         self.b66.setGeometry(QtCore.QRect(600, 600, 100, 100))
         font = QtGui.QFont()
@@ -293,7 +293,7 @@ class Ui_MainWindow(object):
         self.b66.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b66.setObjectName("b66")
         self.b66.clicked.connect(self.actionb66)
-        
+
         self.b71 = QtWidgets.QPushButton(self.centralwidget)
         self.b71.setGeometry(QtCore.QRect(100, 700, 100, 100))
         font = QtGui.QFont()
@@ -302,7 +302,7 @@ class Ui_MainWindow(object):
         self.b71.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b71.setObjectName("b71")
         self.b71.clicked.connect(self.actionb71)
-        
+
         self.b73 = QtWidgets.QPushButton(self.centralwidget)
         self.b73.setGeometry(QtCore.QRect(300, 700, 100, 100))
         font = QtGui.QFont()
@@ -311,7 +311,7 @@ class Ui_MainWindow(object):
         self.b73.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b73.setObjectName("b73")
         self.b73.clicked.connect(self.actionb73)
-        
+
         self.b75 = QtWidgets.QPushButton(self.centralwidget)
         self.b75.setGeometry(QtCore.QRect(500, 700, 100, 100))
         font = QtGui.QFont()
@@ -320,7 +320,7 @@ class Ui_MainWindow(object):
         self.b75.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b75.setObjectName("b75")
         self.b75.clicked.connect(self.actionb75)
-        
+
         self.b77 = QtWidgets.QPushButton(self.centralwidget)
         self.b77.setGeometry(QtCore.QRect(700, 700, 100, 100))
         font = QtGui.QFont()
@@ -329,7 +329,7 @@ class Ui_MainWindow(object):
         self.b77.setStyleSheet("background-color:rgb(75,40,40);color:white")
         self.b77.setObjectName("b77")
         self.b77.clicked.connect(self.actionb77)
-        
+
         self.b10 = QtWidgets.QPushButton(self.centralwidget)
         self.b10.setGeometry(QtCore.QRect(0, 100, 100, 100))
         font = QtGui.QFont()
@@ -338,7 +338,7 @@ class Ui_MainWindow(object):
         self.b10.setStyleSheet("background-color:rgb(220,190,130)")
         self.b10.setObjectName("b10")
         self.b10.clicked.connect(self.actionb10)
-        
+
         self.b21 = QtWidgets.QPushButton(self.centralwidget)
         self.b21.setGeometry(QtCore.QRect(100, 200, 100, 100))
         font = QtGui.QFont()
@@ -348,7 +348,7 @@ class Ui_MainWindow(object):
         self.b21.setText("")
         self.b21.setObjectName("b21")
         self.b21.clicked.connect(self.actionb21)
-        
+
         self.b23 = QtWidgets.QPushButton(self.centralwidget)
         self.b23.setGeometry(QtCore.QRect(300, 200, 100, 100))
         font = QtGui.QFont()
@@ -358,7 +358,7 @@ class Ui_MainWindow(object):
         self.b23.setText("")
         self.b23.setObjectName("b23")
         self.b23.clicked.connect(self.actionb23)
-        
+
         self.b25 = QtWidgets.QPushButton(self.centralwidget)
         self.b25.setGeometry(QtCore.QRect(500, 200, 100, 100))
         font = QtGui.QFont()
@@ -368,7 +368,7 @@ class Ui_MainWindow(object):
         self.b25.setText("")
         self.b25.setObjectName("b25")
         self.b25.clicked.connect(self.actionb25)
-        
+
         self.b27 = QtWidgets.QPushButton(self.centralwidget)
         self.b27.setGeometry(QtCore.QRect(700, 200, 100, 100))
         font = QtGui.QFont()
@@ -378,7 +378,7 @@ class Ui_MainWindow(object):
         self.b27.setText("")
         self.b27.setObjectName("b27")
         self.b27.clicked.connect(self.actionb27)
-        
+
         self.b30 = QtWidgets.QPushButton(self.centralwidget)
         self.b30.setGeometry(QtCore.QRect(0, 300, 100, 100))
         font = QtGui.QFont()
@@ -388,7 +388,7 @@ class Ui_MainWindow(object):
         self.b30.setText("")
         self.b30.setObjectName("b30")
         self.b30.clicked.connect(self.actionb30)
-        
+
         self.b32 = QtWidgets.QPushButton(self.centralwidget)
         self.b32.setGeometry(QtCore.QRect(200, 300, 100, 100))
         font = QtGui.QFont()
@@ -398,7 +398,7 @@ class Ui_MainWindow(object):
         self.b32.setText("")
         self.b32.setObjectName("b32")
         self.b32.clicked.connect(self.actionb32)
-        
+
         self.b34 = QtWidgets.QPushButton(self.centralwidget)
         self.b34.setGeometry(QtCore.QRect(400, 300, 100, 100))
         font = QtGui.QFont()
@@ -408,8 +408,7 @@ class Ui_MainWindow(object):
         self.b34.setText("")
         self.b34.setObjectName("b34")
         self.b34.clicked.connect(self.actionb34)
-        
-        
+
         self.b36 = QtWidgets.QPushButton(self.centralwidget)
         self.b36.setGeometry(QtCore.QRect(600, 300, 100, 100))
         font = QtGui.QFont()
@@ -419,7 +418,7 @@ class Ui_MainWindow(object):
         self.b36.setText("")
         self.b36.setObjectName("b36")
         self.b36.clicked.connect(self.actionb36)
-        
+
         self.b41 = QtWidgets.QPushButton(self.centralwidget)
         self.b41.setGeometry(QtCore.QRect(100, 400, 100, 100))
         font = QtGui.QFont()
@@ -429,7 +428,7 @@ class Ui_MainWindow(object):
         self.b41.setText("")
         self.b41.setObjectName("b41")
         self.b41.clicked.connect(self.actionb41)
-        
+
         self.b43 = QtWidgets.QPushButton(self.centralwidget)
         self.b43.setGeometry(QtCore.QRect(300, 400, 100, 100))
         font = QtGui.QFont()
@@ -439,7 +438,7 @@ class Ui_MainWindow(object):
         self.b43.setText("")
         self.b43.setObjectName("b43")
         self.b43.clicked.connect(self.actionb43)
-        
+
         self.b45 = QtWidgets.QPushButton(self.centralwidget)
         self.b45.setGeometry(QtCore.QRect(500, 400, 100, 100))
         font = QtGui.QFont()
@@ -449,7 +448,7 @@ class Ui_MainWindow(object):
         self.b45.setText("")
         self.b45.setObjectName("b45")
         self.b45.clicked.connect(self.actionb45)
-        
+
         self.b47 = QtWidgets.QPushButton(self.centralwidget)
         self.b47.setGeometry(QtCore.QRect(700, 400, 100, 100))
         font = QtGui.QFont()
@@ -459,7 +458,7 @@ class Ui_MainWindow(object):
         self.b47.setText("")
         self.b47.setObjectName("b47")
         self.b47.clicked.connect(self.actionb47)
-        
+
         self.b50 = QtWidgets.QPushButton(self.centralwidget)
         self.b50.setGeometry(QtCore.QRect(0, 500, 100, 100))
         font = QtGui.QFont()
@@ -469,7 +468,7 @@ class Ui_MainWindow(object):
         self.b50.setText("")
         self.b50.setObjectName("b50")
         self.b50.clicked.connect(self.actionb50)
-        
+
         self.b52 = QtWidgets.QPushButton(self.centralwidget)
         self.b52.setGeometry(QtCore.QRect(200, 500, 100, 100))
         font = QtGui.QFont()
@@ -479,7 +478,7 @@ class Ui_MainWindow(object):
         self.b52.setText("")
         self.b52.setObjectName("b52")
         self.b52.clicked.connect(self.actionb52)
-        
+
         self.b54 = QtWidgets.QPushButton(self.centralwidget)
         self.b54.setGeometry(QtCore.QRect(400, 500, 100, 100))
         font = QtGui.QFont()
@@ -489,7 +488,7 @@ class Ui_MainWindow(object):
         self.b54.setText("")
         self.b54.setObjectName("b54")
         self.b54.clicked.connect(self.actionb54)
-        
+
         self.b56 = QtWidgets.QPushButton(self.centralwidget)
         self.b56.setGeometry(QtCore.QRect(600, 500, 100, 100))
         font = QtGui.QFont()
@@ -499,16 +498,17 @@ class Ui_MainWindow(object):
         self.b56.setText("")
         self.b56.setObjectName("b56")
         self.b56.clicked.connect(self.actionb56)
-        
+
         self.b61 = QtWidgets.QPushButton(self.centralwidget)
         self.b61.setGeometry(QtCore.QRect(100, 600, 100, 100))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.b61.setFont(font)
-        self.b61.setStyleSheet("background-color:rgb(220,190,130);color:white;")
+        self.b61.setStyleSheet(
+            "background-color:rgb(220,190,130);color:white;")
         self.b61.setObjectName("b61")
         self.b61.clicked.connect(self.actionb61)
-        
+
         self.b63 = QtWidgets.QPushButton(self.centralwidget)
         self.b63.setGeometry(QtCore.QRect(300, 600, 100, 100))
         font = QtGui.QFont()
@@ -517,7 +517,7 @@ class Ui_MainWindow(object):
         self.b63.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b63.setObjectName("b63")
         self.b63.clicked.connect(self.actionb63)
-        
+
         self.b65 = QtWidgets.QPushButton(self.centralwidget)
         self.b65.setGeometry(QtCore.QRect(500, 600, 100, 100))
         font = QtGui.QFont()
@@ -526,7 +526,7 @@ class Ui_MainWindow(object):
         self.b65.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b65.setObjectName("b65")
         self.b65.clicked.connect(self.actionb65)
-        
+
         self.b76 = QtWidgets.QPushButton(self.centralwidget)
         self.b76.setGeometry(QtCore.QRect(600, 700, 100, 100))
         font = QtGui.QFont()
@@ -535,7 +535,7 @@ class Ui_MainWindow(object):
         self.b76.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b76.setObjectName("b76")
         self.b76.clicked.connect(self.actionb76)
-        
+
         self.b70 = QtWidgets.QPushButton(self.centralwidget)
         self.b70.setGeometry(QtCore.QRect(0, 700, 100, 100))
         font = QtGui.QFont()
@@ -544,7 +544,7 @@ class Ui_MainWindow(object):
         self.b70.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b70.setObjectName("b70")
         self.b70.clicked.connect(self.actionb70)
-        
+
         self.b72 = QtWidgets.QPushButton(self.centralwidget)
         self.b72.setGeometry(QtCore.QRect(200, 700, 100, 100))
         font = QtGui.QFont()
@@ -553,7 +553,7 @@ class Ui_MainWindow(object):
         self.b72.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b72.setObjectName("b72")
         self.b72.clicked.connect(self.actionb72)
-        
+
         self.b74 = QtWidgets.QPushButton(self.centralwidget)
         self.b74.setGeometry(QtCore.QRect(400, 700, 100, 100))
         font = QtGui.QFont()
@@ -562,7 +562,7 @@ class Ui_MainWindow(object):
         self.b74.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b74.setObjectName("b74")
         self.b74.clicked.connect(self.actionb74)
-        
+
         self.b67 = QtWidgets.QPushButton(self.centralwidget)
         self.b67.setGeometry(QtCore.QRect(700, 600, 100, 100))
         font = QtGui.QFont()
@@ -571,8 +571,7 @@ class Ui_MainWindow(object):
         self.b67.setStyleSheet("background-color:rgb(220,190,130);color:white")
         self.b67.setObjectName("b67")
         self.b67.clicked.connect(self.actionb67)
-        
-        
+
         self.turnviewer = QtWidgets.QLabel(self.centralwidget)
         self.turnviewer.setGeometry(QtCore.QRect(0, 840, 801, 51))
         font = QtGui.QFont()
@@ -693,7 +692,7 @@ class Ui_MainWindow(object):
         self.label_16.setFont(font)
         self.label_16.setStyleSheet("color:white")
         self.label_16.setObjectName("label_16")
-        
+
         self.b12 = QtWidgets.QPushButton(self.centralwidget)
         self.b12.setGeometry(QtCore.QRect(200, 100, 100, 100))
         font = QtGui.QFont()
@@ -702,7 +701,7 @@ class Ui_MainWindow(object):
         self.b12.setStyleSheet("background-color:rgb(220,190,130)")
         self.b12.setObjectName("b12")
         self.b12.clicked.connect(self.actionb12)
-        
+
         self.b14 = QtWidgets.QPushButton(self.centralwidget)
         self.b14.setGeometry(QtCore.QRect(400, 100, 100, 100))
         font = QtGui.QFont()
@@ -711,7 +710,7 @@ class Ui_MainWindow(object):
         self.b14.setStyleSheet("background-color:rgb(220,190,130)")
         self.b14.setObjectName("b14")
         self.b14.clicked.connect(self.actionb14)
-        
+
         self.b16 = QtWidgets.QPushButton(self.centralwidget)
         self.b16.setGeometry(QtCore.QRect(600, 100, 100, 100))
         font = QtGui.QFont()
@@ -720,7 +719,7 @@ class Ui_MainWindow(object):
         self.b16.setStyleSheet("background-color:rgb(220,190,130)")
         self.b16.setObjectName("b16")
         self.b16.clicked.connect(self.actionb16)
-        
+
         self.b13 = QtWidgets.QPushButton(self.centralwidget)
         self.b13.setGeometry(QtCore.QRect(300, 100, 100, 100))
         font = QtGui.QFont()
@@ -729,7 +728,7 @@ class Ui_MainWindow(object):
         self.b13.setStyleSheet("background-color:rgb(75,40,40)")
         self.b13.setObjectName("b13")
         self.b13.clicked.connect(self.actionb13)
-        
+
         self.b15 = QtWidgets.QPushButton(self.centralwidget)
         self.b15.setGeometry(QtCore.QRect(500, 100, 100, 100))
         font = QtGui.QFont()
@@ -738,7 +737,7 @@ class Ui_MainWindow(object):
         self.b15.setStyleSheet("background-color:rgb(75,40,40)")
         self.b15.setObjectName("b15")
         self.b15.clicked.connect(self.actionb15)
-        
+
         self.b17 = QtWidgets.QPushButton(self.centralwidget)
         self.b17.setGeometry(QtCore.QRect(700, 100, 100, 100))
         font = QtGui.QFont()
@@ -747,7 +746,7 @@ class Ui_MainWindow(object):
         self.b17.setStyleSheet("background-color:rgb(75,40,40)")
         self.b17.setObjectName("b17")
         self.b17.clicked.connect(self.actionb17)
-        
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -804,97 +803,104 @@ class Ui_MainWindow(object):
         self.b13.setText(_translate("MainWindow", "bP"))
         self.b15.setText(_translate("MainWindow", "bP"))
         self.b17.setText(_translate("MainWindow", "bP"))
-    
+
+
+        self.icons ={
+            "b rook": QIcon('assets/black king.png')
+        }
+
+        self.puticons()
+
 
     def actionb00(self):
         self.clrsrc()
         if "x" in self.b00.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
-            
-            self.active_pos = (0,0)
-            p = possibilities(pos,self.active_pos)
+
+            self.active_pos = (0, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
                     if p[i][j] == 1:
                         self.pos_color(i, j)
-    
+
     def actionb01(self):
         self.clrsrc()
         if "x" in self.b01.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
-            
-            self.active_pos = (1,0)
-            p = possibilities(pos,self.active_pos)
+
+            self.active_pos = (1, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb02(self):
         self.clrsrc()
-        
+
         if "x" in self.b02.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
-            
-            self.active_pos = (2,0)
-            p = possibilities(pos,self.active_pos)
+
+            self.active_pos = (2, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb03(self):
         self.clrsrc()
-        
+
         if "x" in self.b03.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
-            
-            self.active_pos = (3,0)
-            p = possibilities(pos,self.active_pos)
+
+            self.active_pos = (3, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb04(self):
         self.clrsrc()
-        
+
         if "x" in self.b04.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -902,20 +908,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,0)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb05(self):
         self.clrsrc()
-   
+
         if "x" in self.b05.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -923,20 +929,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,0)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j) 
-        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb06(self):
         self.clrsrc()
-    
+
         if "x" in self.b06.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -944,20 +950,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,0)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j) 
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb07(self):
         self.clrsrc()
-        
+
         if "x" in self.b07.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[0][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -965,20 +971,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,0)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 0)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb10(self):
         self.clrsrc()
-        
+
         if "x" in self.b10.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[1][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -986,20 +992,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb11(self):
         self.clrsrc()
-        
+
         if "x" in self.b11.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[1][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1007,20 +1013,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb12(self):
         self.clrsrc()
-        
+
         if "x" in self.b12.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[1][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1028,20 +1034,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb13(self):
         self.clrsrc()
-        
+
         if "x" in self.b13.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[1][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1049,84 +1055,84 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb14(self):
         self.clrsrc()
-        
+
         if "x" in self.b14.text():
             self.clrx()
             pos = self.position_array()
-            
-            pos[1][4]=pos[self.active_pos[1]][self.active_pos[0]]
+
+            pos[1][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb15(self):
         self.clrsrc()
-        
+
         if "x" in self.b15.text():
             self.clrx()
             pos = self.position_array()
-            
-            pos[1][5]=pos[self.active_pos[1]][self.active_pos[0]]
+
+            pos[1][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb16(self):
         self.clrsrc()
-        
+
         if "x" in self.b16.text():
             self.clrx()
-            
+
             pos = self.position_array()
-            
-            pos[1][6]= pos[self.active_pos[1]][self.active_pos[0]]
+
+            pos[1][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
-         self.clrx()
-         pos = self.position_array()
-         
-        self.active_pos = (6,1)
-        p = possibilities(pos,self.active_pos)
+            self.clrx()
+            pos = self.position_array()
+
+        self.active_pos = (6, 1)
+        p = possibilities(pos, self.active_pos)
         for i in range(8):
             for j in range(8):
-                if p[i][j] ==1:
-                    self.pos_color(i,j)
-    
+                if p[i][j] == 1:
+                    self.pos_color(i, j)
+
     def actionb17(self):
         self.clrsrc()
-        
+
         if "x" in self.b17.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[1][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1134,20 +1140,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,1)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 1)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb20(self):
         self.clrsrc()
-        
+
         if "x" in self.b20.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1155,20 +1161,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb21(self):
         self.clrsrc()
-        
+
         if "x" in self.b21.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1176,19 +1182,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb22(self):
         self.clrsrc()
-        
+
         if "x" in self.b22.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1196,19 +1203,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb23(self):
         self.clrsrc()
-        
+
         if "x" in self.b23.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1216,20 +1224,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb24(self):
         self.clrsrc()
-        
+
         if "x" in self.b24.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1237,20 +1245,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb25(self):
         self.clrsrc()
-        
+
         if "x" in self.b25.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1258,20 +1266,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb26(self):
         self.clrsrc()
-        
+
         if "x" in self.b26.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1279,20 +1287,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb27(self):
         self.clrsrc()
-        
+
         if "x" in self.b27.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[2][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1300,20 +1308,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,2)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 2)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)  
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb30(self):
         self.clrsrc()
-        
+
         if "x" in self.b30.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1321,20 +1329,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb31(self):
         self.clrsrc()
-        
+
         if "x" in self.b31.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1342,20 +1350,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb32(self):
         self.clrsrc()
-        
+
         if "x" in self.b32.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1363,20 +1371,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb33(self):
         self.clrsrc()
-        
+
         if "x" in self.b33.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1384,21 +1392,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            
-            self.active_pos = (3,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb34(self):
         self.clrsrc()
-        
+
         if "x" in self.b34.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1406,20 +1413,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb35(self):
         self.clrsrc()
-        
+
         if "x" in self.b35.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1427,20 +1434,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb36(self):
         self.clrsrc()
-        
+
         if "x" in self.b36.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1448,20 +1455,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb37(self):
         self.clrsrc()
-        
+
         if "x" in self.b37.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[3][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1469,20 +1476,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,3)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 3)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb40(self):
         self.clrsrc()
-        
+
         if "x" in self.b40.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1490,20 +1497,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb41(self):
         self.clrsrc()
-        
+
         if "x" in self.b41.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1511,20 +1518,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb42(self):
         self.clrsrc()
-        
+
         if "x" in self.b42.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1532,20 +1539,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb43(self):
         self.clrsrc()
-        
+
         if "x" in self.b43.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1553,20 +1560,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb44(self):
         self.clrsrc()
-        
+
         if "x" in self.b44.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1574,20 +1581,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb45(self):
         self.clrsrc()
-        
+
         if "x" in self.b45.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1595,20 +1602,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb46(self):
         self.clrsrc()
-        
+
         if "x" in self.b46.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1616,20 +1623,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb47(self):
         self.clrsrc()
-        
+
         if "x" in self.b47.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[4][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1637,20 +1644,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,4)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 4)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)  
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb50(self):
         self.clrsrc()
-        
+
         if "x" in self.b50.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1658,20 +1665,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j) 
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb51(self):
         self.clrsrc()
-        
+
         if "x" in self.b51.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1679,20 +1686,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb52(self):
         self.clrsrc()
-        
+
         if "x" in self.b52.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1700,20 +1707,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb53(self):
         self.clrsrc()
-        
+
         if "x" in self.b53.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1721,20 +1728,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb54(self):
         self.clrsrc()
-        
+
         if "x" in self.b54.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1742,20 +1749,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb55(self):
         self.clrsrc()
-        
+
         if "x" in self.b55.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1763,20 +1770,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb56(self):
         self.clrsrc()
-        
+
         if "x" in self.b56.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1784,39 +1791,39 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)   
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb57(self):
         self.clrsrc()
         pos = self.position_array()
         if "x" in self.b57.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[5][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
         else:
             self.clrx()
-            self.active_pos = (7,5)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 5)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)        
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb60(self):
         self.clrsrc()
-        
+
         if "x" in self.b60.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1824,20 +1831,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb61(self):
         self.clrsrc()
-        
+
         if "x" in self.b61.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1845,20 +1852,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb62(self):
         self.clrsrc()
-        
+
         if "x" in self.b62.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1866,20 +1873,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb63(self):
         self.clrsrc()
-        
+
         if "x" in self.b63.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1887,20 +1894,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb64(self):
         self.clrsrc()
-        
+
         if "x" in self.b64.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1908,20 +1915,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb65(self):
         self.clrsrc()
-        
+
         if "x" in self.b65.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1929,20 +1936,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb66(self):
         self.clrsrc()
-        
+
         if "x" in self.b66.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1950,20 +1957,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb67(self):
         self.clrsrc()
-        
+
         if "x" in self.b67.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[6][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1971,20 +1978,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,6)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 6)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb70(self):
         self.clrsrc()
-        
+
         if "x" in self.b70.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][0] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -1992,20 +1999,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (0,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (0, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb71(self):
         self.clrsrc()
-        
+
         if "x" in self.b71.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][1] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2013,20 +2020,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (1,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (1, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb72(self):
         self.clrsrc()
-        
+
         if "x" in self.b72.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][2] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2034,20 +2041,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (2,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (2, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb73(self):
         self.clrsrc()
-        
+
         if "x" in self.b73.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][3] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2055,20 +2062,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (3,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (3, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb74(self):
         self.clrsrc()
-        
+
         if "x" in self.b74.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][4] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2076,20 +2083,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (4,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (4, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-    
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb75(self):
         self.clrsrc()
-        
+
         if "x" in self.b75.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][5] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2097,19 +2104,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (5,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (5, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb76(self):
         self.clrsrc()
-        
+
         if "x" in self.b76.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][6] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2117,20 +2125,20 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (6,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (6, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)
-                        
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def actionb77(self):
         self.clrsrc()
-        
+
         if "x" in self.b77.text():
             self.clrx()
             pos = self.position_array()
-            
+
             pos[7][7] = pos[self.active_pos[1]][self.active_pos[0]]
             pos[self.active_pos[1]][self.active_pos[0]] = ""
             self.update_array(pos)
@@ -2138,164 +2146,245 @@ class Ui_MainWindow(object):
             self.clrx()
             pos = self.position_array()
 
-            self.active_pos = (7,7)
-            p = possibilities(pos,self.active_pos)
+            self.active_pos = (7, 7)
+            p = possibilities(pos, self.active_pos)
             for i in range(8):
                 for j in range(8):
-                    if p[i][j] ==1:
-                        self.pos_color(i,j)             
-                
+                    if p[i][j] == 1:
+                        self.pos_color(i, j)
+
     def position_array(self):
         self.position_arr = [
-            [self.b00.text(),self.b01.text(),self.b02.text(),self.b03.text(),self.b04.text(),self.b05.text(),self.b06.text(),self.b07.text()],
-            [self.b10.text(),self.b11.text(),self.b12.text(),self.b13.text(),self.b14.text(),self.b15.text(),self.b16.text(),self.b17.text()],
-            [self.b20.text(),self.b21.text(),self.b22.text(),self.b23.text(),self.b24.text(),self.b25.text(),self.b26.text(),self.b27.text()],
-            [self.b30.text(),self.b31.text(),self.b32.text(),self.b33.text(),self.b34.text(),self.b35.text(),self.b36.text(),self.b37.text()],
-            [self.b40.text(),self.b41.text(),self.b42.text(),self.b43.text(),self.b44.text(),self.b45.text(),self.b46.text(),self.b47.text()],
-            [self.b50.text(),self.b51.text(),self.b52.text(),self.b53.text(),self.b54.text(),self.b55.text(),self.b56.text(),self.b57.text()],
-            [self.b60.text(),self.b61.text(),self.b62.text(),self.b63.text(),self.b64.text(),self.b65.text(),self.b66.text(),self.b67.text()],
-            [self.b70.text(),self.b71.text(),self.b72.text(),self.b73.text(),self.b74.text(),self.b75.text(),self.b76.text(),self.b77.text()]
-        ]   
+            [self.b00.text(), self.b01.text(), self.b02.text(), self.b03.text(),
+             self.b04.text(), self.b05.text(), self.b06.text(), self.b07.text()],
+            [self.b10.text(), self.b11.text(), self.b12.text(), self.b13.text(),
+             self.b14.text(), self.b15.text(), self.b16.text(), self.b17.text()],
+            [self.b20.text(), self.b21.text(), self.b22.text(), self.b23.text(),
+             self.b24.text(), self.b25.text(), self.b26.text(), self.b27.text()],
+            [self.b30.text(), self.b31.text(), self.b32.text(), self.b33.text(),
+             self.b34.text(), self.b35.text(), self.b36.text(), self.b37.text()],
+            [self.b40.text(), self.b41.text(), self.b42.text(), self.b43.text(),
+             self.b44.text(), self.b45.text(), self.b46.text(), self.b47.text()],
+            [self.b50.text(), self.b51.text(), self.b52.text(), self.b53.text(),
+             self.b54.text(), self.b55.text(), self.b56.text(), self.b57.text()],
+            [self.b60.text(), self.b61.text(), self.b62.text(), self.b63.text(),
+             self.b64.text(), self.b65.text(), self.b66.text(), self.b67.text()],
+            [self.b70.text(), self.b71.text(), self.b72.text(), self.b73.text(),
+             self.b74.text(), self.b75.text(), self.b76.text(), self.b77.text()]
+        ]
         return self.position_arr
-            
-     
-    def pos_color(self,i,j):
-        update_color=[
-            [self.b00,self.b01,self.b02,self.b03,self.b04,self.b05,self.b06,self.b07],
-            [self.b10,self.b11,self.b12,self.b13,self.b14,self.b15,self.b16,self.b17],
-            [self.b20,self.b21,self.b22,self.b23,self.b24,self.b25,self.b26,self.b27],
-            [self.b30,self.b31,self.b32,self.b33,self.b34,self.b35,self.b36,self.b37],
-            [self.b40,self.b41,self.b42,self.b43,self.b44,self.b45,self.b46,self.b47],
-            [self.b50,self.b51,self.b52,self.b53,self.b54,self.b55,self.b56,self.b57],
-            [self.b60,self.b61,self.b62,self.b63,self.b64,self.b65,self.b66,self.b67],
-            [self.b70,self.b71,self.b72,self.b73,self.b74,self.b75,self.b76,self.b77]
-         ]
+
+    def pos_color(self, i, j):
+        update_color = [
+            [self.b00, self.b01, self.b02, self.b03,
+                self.b04, self.b05, self.b06, self.b07],
+            [self.b10, self.b11, self.b12, self.b13,
+                self.b14, self.b15, self.b16, self.b17],
+            [self.b20, self.b21, self.b22, self.b23,
+                self.b24, self.b25, self.b26, self.b27],
+            [self.b30, self.b31, self.b32, self.b33,
+                self.b34, self.b35, self.b36, self.b37],
+            [self.b40, self.b41, self.b42, self.b43,
+                self.b44, self.b45, self.b46, self.b47],
+            [self.b50, self.b51, self.b52, self.b53,
+                self.b54, self.b55, self.b56, self.b57],
+            [self.b60, self.b61, self.b62, self.b63,
+                self.b64, self.b65, self.b66, self.b67],
+            [self.b70, self.b71, self.b72, self.b73,
+                self.b74, self.b75, self.b76, self.b77]
+        ]
         if update_color[i][j].setStyleSheet("background-color:rgb(75,40,40);"):
             if "w" in update_color[i][j].text():
                 color = "white"
             else:
                 color = "black"
-            update_color[i][j].setStyleSheet("background-color:green;color:"+color+";")
+            update_color[i][j].setStyleSheet(
+                "background-color:green;color:"+color+";")
             update_color[i][j].setText(update_color[i][j].text()+"x")
         else:
             if "w" in update_color[i][j].text():
                 color = "white"
             else:
                 color = "black"
-            update_color[i][j].setStyleSheet("background-color:green;color:"+color+";")
+            update_color[i][j].setStyleSheet(
+                "background-color:green;color:"+color+";")
             update_color[i][j].setText(update_color[i][j].text()+"x")
-            
+
     def clrsrc(self):
-        update_color=[
-            [self.b00,self.b01,self.b02,self.b03,self.b04,self.b05,self.b06,self.b07],
-            [self.b10,self.b11,self.b12,self.b13,self.b14,self.b15,self.b16,self.b17],
-            [self.b20,self.b21,self.b22,self.b23,self.b24,self.b25,self.b26,self.b27],
-            [self.b30,self.b31,self.b32,self.b33,self.b34,self.b35,self.b36,self.b37],
-            [self.b40,self.b41,self.b42,self.b43,self.b44,self.b45,self.b46,self.b47],
-            [self.b50,self.b51,self.b52,self.b53,self.b54,self.b55,self.b56,self.b57],
-            [self.b60,self.b61,self.b62,self.b63,self.b64,self.b65,self.b66,self.b67],
-            [self.b70,self.b71,self.b72,self.b73,self.b74,self.b75,self.b76,self.b77]
-         ]
+        update_color = [
+            [self.b00, self.b01, self.b02, self.b03,
+                self.b04, self.b05, self.b06, self.b07],
+            [self.b10, self.b11, self.b12, self.b13,
+                self.b14, self.b15, self.b16, self.b17],
+            [self.b20, self.b21, self.b22, self.b23,
+                self.b24, self.b25, self.b26, self.b27],
+            [self.b30, self.b31, self.b32, self.b33,
+                self.b34, self.b35, self.b36, self.b37],
+            [self.b40, self.b41, self.b42, self.b43,
+                self.b44, self.b45, self.b46, self.b47],
+            [self.b50, self.b51, self.b52, self.b53,
+                self.b54, self.b55, self.b56, self.b57],
+            [self.b60, self.b61, self.b62, self.b63,
+                self.b64, self.b65, self.b66, self.b67],
+            [self.b70, self.b71, self.b72, self.b73,
+                self.b74, self.b75, self.b76, self.b77]
+        ]
         for i in range(8):
-            if i%2 ==0:
+            if i % 2 == 0:
                 for j in range(8):
-                    if j%2 == 0:
+
+                    if j % 2 == 0:
                         color = "rgb(75,40,40)"
                     else:
                         color = "rgb(220,190,130)"
+
                     if "w" in update_color[i][j].text():
-                        update_color[i][j].setStyleSheet("background-color:"+color+";color:white")
+                        update_color[i][j].setStyleSheet(
+                            "background-color:"+color+";color:white")
                     else:
-                        update_color[i][j].setStyleSheet("background-color:"+color+";color:black")
-                    
+                        update_color[i][j].setStyleSheet(
+                            "background-color:"+color+";color:black")
+
             else:
                 for j in range(8):
-                    if j%2 == 1:
+                    if j % 2 == 1:
                         color = "rgb(75,40,40)"
                     else:
                         color = "rgb(220,190,130)"
+
                     if "w" in update_color[i][j].text():
-                        update_color[i][j].setStyleSheet("background-color:"+color+";color:white")
+                        update_color[i][j].setStyleSheet(
+                            "background-color:"+color+";color:white")
                     else:
-                        update_color[i][j].setStyleSheet("background-color:"+color+";color:black")
-                        
+                        update_color[i][j].setStyleSheet(
+                            "background-color:"+color+";color:black")
+
+        self.puticons()
+
+    def puticons(self):
+        pos_arr = self.position_array()
+
+
+        for i in range(8):
+            for j in range(8):
+                button = eval(f"self.b{i}{j}")
+                button.setIcon(QIcon())
+
+                if pos_arr[i][j] == "bR":
+                    button.setIcon(self.icons["b rook"])
+                    button.setIconSize(QtCore.QSize(100, 100))
+
+
     def clrx(self):
-        update_color=[
-            [self.b00,self.b01,self.b02,self.b03,self.b04,self.b05,self.b06,self.b07],
-            [self.b10,self.b11,self.b12,self.b13,self.b14,self.b15,self.b16,self.b17],
-            [self.b20,self.b21,self.b22,self.b23,self.b24,self.b25,self.b26,self.b27],
-            [self.b30,self.b31,self.b32,self.b33,self.b34,self.b35,self.b36,self.b37],
-            [self.b40,self.b41,self.b42,self.b43,self.b44,self.b45,self.b46,self.b47],
-            [self.b50,self.b51,self.b52,self.b53,self.b54,self.b55,self.b56,self.b57],
-            [self.b60,self.b61,self.b62,self.b63,self.b64,self.b65,self.b66,self.b67],
-            [self.b70,self.b71,self.b72,self.b73,self.b74,self.b75,self.b76,self.b77]
+        update_color = [
+            [self.b00, self.b01, self.b02, self.b03,
+                self.b04, self.b05, self.b06, self.b07],
+            [self.b10, self.b11, self.b12, self.b13,
+                self.b14, self.b15, self.b16, self.b17],
+            [self.b20, self.b21, self.b22, self.b23,
+                self.b24, self.b25, self.b26, self.b27],
+            [self.b30, self.b31, self.b32, self.b33,
+                self.b34, self.b35, self.b36, self.b37],
+            [self.b40, self.b41, self.b42, self.b43,
+                self.b44, self.b45, self.b46, self.b47],
+            [self.b50, self.b51, self.b52, self.b53,
+                self.b54, self.b55, self.b56, self.b57],
+            [self.b60, self.b61, self.b62, self.b63,
+                self.b64, self.b65, self.b66, self.b67],
+            [self.b70, self.b71, self.b72, self.b73,
+                self.b74, self.b75, self.b76, self.b77]
         ]
         for i in range(8):
             for j in range(8):
                 if "x" in update_color[i][j].text():
-                    update_color[i][j].setText(update_color[i][j].text().replace("x",""))
-                
-    def update_array(self,position_arr):
-        self.position_arr = [
-            [self.b00.setText(position_arr[0][0]),self.b01.setText(position_arr[0][1]),self.b02.setText(position_arr[0][2]),self.b03.setText(position_arr[0][3]),self.b04.setText(position_arr[0][4]),self.b05.setText(position_arr[0][5]),self.b06.setText(position_arr[0][6]),self.b07.setText(position_arr[0][7])],
+                    update_color[i][j].setText(
+                        update_color[i][j].text().replace("x", ""))
 
-            [self.b10.setText(position_arr[1][0]),self.b11.setText(position_arr[1][1]),self.b12.setText(position_arr[1][2]),self.b13.setText(position_arr[1][3]),self.b14.setText(position_arr[1][4]),self.b15.setText(position_arr[1][5]),self.b16.setText(position_arr[1][6]),self.b17.setText(position_arr[1][7])],
-            
-            [self.b20.setText(position_arr[2][0]),self.b21.setText(position_arr[2][1]),self.b22.setText(position_arr[2][2]),self.b23.setText(position_arr[2][3]),self.b24.setText(position_arr[2][4]),self.b25.setText(position_arr[2][5]),self.b26.setText(position_arr[2][6]),self.b27.setText(position_arr[2][7])],
-            
-            [self.b30.setText(position_arr[3][0]),self.b31.setText(position_arr[3][1]),self.b32.setText(position_arr[3][2]),self.b33.setText(position_arr[3][3]),self.b34.setText(position_arr[3][4]),self.b35.setText(position_arr[3][5]),self.b36.setText(position_arr[3][6]),self.b37.setText(position_arr[3][7])],
-            
-            [self.b40.setText(position_arr[4][0]),self.b41.setText(position_arr[4][1]),self.b42.setText(position_arr[4][2]),self.b43.setText(position_arr[4][3]),self.b44.setText(position_arr[4][4]),self.b45.setText(position_arr[4][5]),self.b46.setText(position_arr[4][6]),self.b47.setText(position_arr[4][7])],
-            
-            [self.b50.setText(position_arr[5][0]),self.b51.setText(position_arr[5][1]),self.b52.setText(position_arr[5][2]),self.b53.setText(position_arr[5][3]),self.b54.setText(position_arr[5][4]),self.b55.setText(position_arr[5][5]),self.b56.setText(position_arr[5][6]),self.b57.setText(position_arr[5][7])],
-            
-            [self.b60.setText(position_arr[6][0]),self.b61.setText(position_arr[6][1]),self.b62.setText(position_arr[6][2]),self.b63.setText(position_arr[6][3]),self.b64.setText(position_arr[6][4]),self.b65.setText(position_arr[6][5]),self.b66.setText(position_arr[6][6]),self.b67.setText(position_arr[6][7])],
-            
-            [self.b70.setText(position_arr[7][0]),self.b71.setText(position_arr[7][1]),self.b72.setText(position_arr[7][2]),self.b73.setText(position_arr[7][3]),self.b74.setText(position_arr[7][4]),self.b75.setText(position_arr[7][5]),self.b76.setText(position_arr[7][6]),self.b77.setText(position_arr[7][7])]
+    def update_array(self, position_arr):
+        self.position_arr = [
+            [self.b00.setText(position_arr[0][0]), self.b01.setText(position_arr[0][1]), self.b02.setText(position_arr[0][2]), self.b03.setText(position_arr[0][3]), self.b04.setText(
+                position_arr[0][4]), self.b05.setText(position_arr[0][5]), self.b06.setText(position_arr[0][6]), self.b07.setText(position_arr[0][7])],
+
+            [self.b10.setText(position_arr[1][0]), self.b11.setText(position_arr[1][1]), self.b12.setText(position_arr[1][2]), self.b13.setText(position_arr[1][3]), self.b14.setText(
+                position_arr[1][4]), self.b15.setText(position_arr[1][5]), self.b16.setText(position_arr[1][6]), self.b17.setText(position_arr[1][7])],
+
+            [self.b20.setText(position_arr[2][0]), self.b21.setText(position_arr[2][1]), self.b22.setText(position_arr[2][2]), self.b23.setText(position_arr[2][3]), self.b24.setText(
+                position_arr[2][4]), self.b25.setText(position_arr[2][5]), self.b26.setText(position_arr[2][6]), self.b27.setText(position_arr[2][7])],
+
+            [self.b30.setText(position_arr[3][0]), self.b31.setText(position_arr[3][1]), self.b32.setText(position_arr[3][2]), self.b33.setText(position_arr[3][3]), self.b34.setText(
+                position_arr[3][4]), self.b35.setText(position_arr[3][5]), self.b36.setText(position_arr[3][6]), self.b37.setText(position_arr[3][7])],
+
+            [self.b40.setText(position_arr[4][0]), self.b41.setText(position_arr[4][1]), self.b42.setText(position_arr[4][2]), self.b43.setText(position_arr[4][3]), self.b44.setText(
+                position_arr[4][4]), self.b45.setText(position_arr[4][5]), self.b46.setText(position_arr[4][6]), self.b47.setText(position_arr[4][7])],
+
+            [self.b50.setText(position_arr[5][0]), self.b51.setText(position_arr[5][1]), self.b52.setText(position_arr[5][2]), self.b53.setText(position_arr[5][3]), self.b54.setText(
+                position_arr[5][4]), self.b55.setText(position_arr[5][5]), self.b56.setText(position_arr[5][6]), self.b57.setText(position_arr[5][7])],
+
+            [self.b60.setText(position_arr[6][0]), self.b61.setText(position_arr[6][1]), self.b62.setText(position_arr[6][2]), self.b63.setText(position_arr[6][3]), self.b64.setText(
+                position_arr[6][4]), self.b65.setText(position_arr[6][5]), self.b66.setText(position_arr[6][6]), self.b67.setText(position_arr[6][7])],
+
+            [self.b70.setText(position_arr[7][0]), self.b71.setText(position_arr[7][1]), self.b72.setText(position_arr[7][2]), self.b73.setText(position_arr[7][3]), self.b74.setText(
+                position_arr[7][4]), self.b75.setText(position_arr[7][5]), self.b76.setText(position_arr[7][6]), self.b77.setText(position_arr[7][7])]
         ]
         for j in range(8):
-            if position_arr[0][j]=="wP":
-                if j==0:
+            if position_arr[0][j] == "wP":
+                if j == 0:
                     self.b00.setText("wR")
-                if j==7:
+                if j == 7:
                     self.b07.setText("wR")
-                if j==1:
+                if j == 1:
                     self.b01.setText("wKn")
-                if j==6:
+                if j == 6:
                     self.b06.setText("wKn")
-                if j==2:
+                if j == 2:
                     self.b02.setText("wB")
-                if j==5:
+                if j == 5:
                     self.b05.setText("wB")
-                if j==3:
+                if j == 3:
                     self.b03.setText("wQ")
-                if j==4:
+                if j == 4:
                     self.b04.setText("wQ")
-            if position_arr[7][j]=="bP":
-                if j==0:
+
+            if position_arr[7][j] == "bP":
+                if j == 0:
                     self.b70.setText("bR")
-                if j==7:
+                if j == 7:
                     self.b77.setText("bR")
-                if j==1:
+                if j == 1:
                     self.b71.setText("bKn")
-                if j==6:
+                if j == 6:
                     self.b76.setText("bKn")
-                if j==2:
+                if j == 2:
                     self.b72.setText("bB")
-                if j==5:
+                if j == 5:
                     self.b75.setText("bB")
-                if j==3:
+                if j == 3:
                     self.b73.setText("bQ")
-                if j==4:
+                if j == 4:
                     self.b74.setText("bQ")
         self.clrsrc()
-                    
 
-                
-        
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
+
+    app.setStyleSheet("""
+
+    QPushButton {
+        padding:48px;
+        margin: 1.5px;
+        text-align: justify;
+    }
+
+    QIcon {
+        margin-left: 50px;
+    }
+
+
+    """)
+
+
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
